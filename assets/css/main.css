@@ -33,6 +33,19 @@ body {
 	line-height: 1;
 }
 
+.back-to-main {
+    display: inline; /* Ensures the link is on its own line */
+    text-align: center; /* Centers the text on the page */
+    margin-top: 20px; /* Adds space above the text */
+    margin-bottom: 20px; /* Adds space below the text */
+    text-decoration: none; /* Removes underline from the link */
+    color: #000; /* Sets the text color */
+}
+
+.back-to-main:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2275,15 +2288,28 @@ input, select, textarea {
 			  
 			
 			#main > section.one {
+				position: relative; /* Ensure the parent is positioned relatively */
 				background-color: #81918E;
 				background-image: url("../../images/intro-bg.JPG");
-			}
-
+				}
+				
+				.credit-line {
+				position: absolute;
+				right: 10px; /* Adjust the value as needed */
+				bottom: 10px; /* Adjust the value as needed */
+				color: #ffffff; /* White color for the font */
+  				text-shadow: 1px 1px 2px #000000; /* Black shadow to make it readable on any background */
+				font-size: 0.8em; /* Adjust based on your design */
+				text-align: right;
+				z-index: 10; /* Ensure it's above other content */
+				}
+				  
 			#main > section.two {
 				background-color: #f5fafa;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+				font-size: 19pt;
 			}
 
 			#main > section.two .image.featured img {
@@ -2303,6 +2329,28 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+			#main > section.five {
+				background-color: #e8edec;
+			}
+
+			#main > section.six {
+				background-color: #f5fafa;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			#main > section.six .image.featured img {
+				/* If your image is a block-level element, this will center it */
+				display: block; /* Makes <img> a block-level element if it isn't already */
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 80%; /* Ensures the image scales down on smaller screens */
+				height: auto; /* Maintains the aspect ratio of the image */
+				border-radius: 50px;
+			}
+
 
 /* Wide */
 
