@@ -1771,7 +1771,7 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 58px;
 			height: 58px;
-			background: #f00;
+			background: rgb(0, 0, 0);
 			border-radius: 50px;
 			transform: translateY(-7px)
 		}
@@ -2326,10 +2326,48 @@ input, select, textarea {
 				background-color: #ecf1f1;
 			}
 
+
 			#main > section.four {
 				background-color: #e8edec;
 			}
 
+				.video-container-hori {
+					position: relative;
+					width: 100%; /* Full width of the container */
+					max-width: 960px; /* Maximum video width */
+					margin: auto; /* This will center the div if its width is less than the container width */
+					overflow: hidden;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				
+				.responsive-iframe-hori {
+				width: 100%; /* Scale based on parent container */
+				aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+				border-radius: 50px; /* Optional: for rounded corners */
+				}
+
+				/* Not used at the moment */
+				.video-container-vert {
+					position: relative;
+					width: 100%; /* Full width to maintain responsiveness */
+					max-width: 540px; /* You can adjust this to maintain a reasonable size */
+					margin: auto; /* Center the container */
+					overflow: hidden;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					 /* Set the aspect ratio to match the video */
+				  }
+				  
+				.responsive-iframe-vert {
+				width: 100%; /* Let it be responsive within the container */
+				height: 100%; /* Let the height be determined by the aspect ratio of the container */
+				aspect-ratio: 9 / 16;
+				border-radius: 50px; /* Optional: for rounded corners, adjust or remove as needed */
+				}
+	
 			#main > section.five {
 				background-color: #e8edec;
 			}
