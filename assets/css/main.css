@@ -2290,14 +2290,14 @@ input, select, textarea {
 			#main > section.one {
 				position: relative; /* Ensure the parent is positioned relatively */
 				background-color: #81918E;
-				background-image: url("../../images/aurora-degg.jpg");
+				background-image: url("../../images/intro-bg-2.jpg");
 				}
 				
 				.credit-line {
 				position: absolute;
 				right: 10px; /* Adjust the value as needed */
 				bottom: 10px; /* Adjust the value as needed */
-				color: #ffffff; /* White color for the font */
+				color: white; /* White color for the font */
   				text-shadow: 1px 1px 2px #000000; /* Black shadow to make it readable on any background */
 				font-size: 0.8em; /* Adjust based on your design */
 				text-align: right;
