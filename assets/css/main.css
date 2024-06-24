@@ -2296,17 +2296,20 @@ input, select, textarea {
 				background-color: #81918E;
 				background-image: url("../../images/intro-bg-2.jpg");
 				}
-				
+
 				.credit-line {
-				position: absolute;
-				right: 10px; /* Adjust the value as needed */
-				bottom: 10px; /* Adjust the value as needed */
-				color: white; /* White color for the font */
-  				text-shadow: 1px 1px 2px #000000; /* Black shadow to make it readable on any background */
-				font-size: 0.8em; /* Adjust based on your design */
-				text-align: right;
-				z-index: 10; /* Ensure it's above other content */
-				}
+					position: absolute;
+					bottom: 10px; /* Adjust the value as needed */
+					left: 50%;
+					color: white; /* White color for the font */
+					transform: translateX(-50%);
+					text-shadow: 1px 1px 2px #000000; /* Black shadow to make it readable on any background */
+					font-size: 0.8em; /* Adjust based on your design */
+					text-align: center;
+					z-index: 10; /* Ensure it's above other content */
+					}
+				
+				
 				  
 			#main > section.two {
 				background-color: #f5fafa;
@@ -2854,4 +2857,25 @@ input, select, textarea {
 
 .signature {
 	font-family: 'Allura', cursive;
+}
+
+section.one.dark.cover {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text */
+    padding: 2em; /* Add some padding */
+    background-size: cover !important; /* Ensure the background covers the section */
+    background-position: center; /* Center the background image */
+}
+
+@media screen and (max-width: 767px) {
+    section.one.dark.cover {
+        padding: 1em; /* Adjust padding for smaller screens */
+        background-size: cover; /* Ensure the background covers the section without distortion */
+        background-attachment: scroll; /* Prevent background from fixing in mobile */
+		background-position: center right !important;
+    }
 }
