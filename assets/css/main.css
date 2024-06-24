@@ -97,7 +97,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Times New Roman', Times, serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -116,7 +116,7 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Times New Roman', Times, serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -151,6 +151,10 @@ input, select, textarea {
 			h2.alt strong {
 				color: #666;
 			}
+
+		h2.art-line {
+			font-size: 80px;
+		}
 
 	h3 {
 		font-size: 1.5em;
@@ -2784,3 +2788,70 @@ input, select, textarea {
 				}
 
 	}
+
+.art-line-discover {
+    text-align: center;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .art-line-discover {
+        font-size: 35px !important;
+		font-family: 'Pacifico', cursive !important;
+    }
+}
+
+/* Tablet devices */
+/* @media (min-width: 601px) and (max-width: 1024px) {
+    .art-line-discover {
+        font-size: 1.75rem;
+    }
+} */
+
+/* Large screens */
+@media (min-width: 1025px) {
+    .art-line-discover {
+        font-size: 80px !important; /* Larger font size for large screens */
+		font-family: 'Pacifico', cursive !important;
+    }
+}
+
+.alt-intro {
+	text-align: center;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .alt-intro {
+        font-size: 20px !important;
+		font-family: 'Playfair Display', serif !important;
+		margin-bottom: 15px;
+    }
+
+	.alt-intro:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+    .alt-intro {
+        font-size: 40px !important; /* Larger font size for large screens */
+		font-family: 'Playfair Display', serif !important;
+    }
+}
+
+.about-me-paragraph {
+	text-align: center;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .about-me-paragraph {
+        font-size: 20px ;
+    }
+}
+
+.signature {
+	font-family: 'Allura', cursive;
+}
