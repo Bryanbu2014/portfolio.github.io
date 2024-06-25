@@ -1744,6 +1744,1476 @@ input, select, textarea {
 
 		}
 
+
+
+/* row-achievements */
+
+.row-achievements {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+    .row-achievements > * {
+        box-sizing: border-box;
+    }
+
+    .row-achievements.gtr-uniform > * > :last-child {
+        margin-bottom: 0;
+    }
+
+    .row-achievements.aln-left {
+        justify-content: flex-start;
+    }
+
+    .row-achievements.aln-center {
+        justify-content: center;
+    }
+
+    .row-achievements.aln-right {
+        justify-content: flex-end;
+    }
+
+    .row-achievements.aln-top {
+        align-items: flex-start;
+    }
+
+    .row-achievements.aln-middle {
+        align-items: center;
+    }
+
+    .row-achievements.aln-bottom {
+        align-items: flex-end;
+    }
+
+    .row-achievements > .imp {
+        order: -1;
+    }
+
+    .row-achievements > .col-1 {
+        width: 8.33333%;
+    }
+
+    .row-achievements > .off-1 {
+        margin-left: 8.33333%;
+    }
+
+    .row-achievements > .col-2 {
+        width: 16.66667%;
+    }
+
+    .row-achievements > .off-2 {
+        margin-left: 16.66667%;
+    }
+
+    .row-achievements > .col-3 {
+        width: 25%;
+    }
+
+    .row-achievements > .off-3 {
+        margin-left: 25%;
+    }
+
+    .row-achievements > .col-4 {
+        width: 33.33333%;
+    }
+
+    .row-achievements > .off-4 {
+        margin-left: 33.33333%;
+    }
+
+    .row-achievements > .col-5 {
+        width: 41.66667%;
+    }
+
+    .row-achievements > .off-5 {
+        margin-left: 41.66667%;
+    }
+
+    .row-achievements > .col-6 {
+        width: 50%;
+    }
+
+    .row-achievements > .off-6 {
+        margin-left: 50%;
+    }
+
+    .row-achievements > .col-7 {
+        width: 58.33333%;
+    }
+
+    .row-achievements > .off-7 {
+        margin-left: 58.33333%;
+    }
+
+    .row-achievements > .col-8 {
+        width: 66.66667%;
+    }
+
+    .row-achievements > .off-8 {
+        margin-left: 66.66667%;
+    }
+
+    .row-achievements > .col-9 {
+        width: 75%;
+    }
+
+    .row-achievements > .off-9 {
+        margin-left: 75%;
+    }
+
+    .row-achievements > .col-10 {
+        width: 83.33333%;
+    }
+
+    .row-achievements > .off-10 {
+        margin-left: 83.33333%;
+    }
+
+    .row-achievements > .col-11 {
+        width: 91.66667%;
+    }
+
+    .row-achievements > .off-11 {
+        margin-left: 91.66667%;
+    }
+
+    .row-achievements > .col-12 {
+        width: 100%;
+    }
+
+    .row-achievements > .off-12 {
+        margin-left: 100%;
+    }
+
+    .row-achievements.gtr-0 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+        .row-achievements.gtr-0 > * {
+            padding: 0px 0 0 0px;
+        }
+
+        .row-achievements.gtr-0.gtr-uniform {
+            margin-top: 0px;
+        }
+
+            .row-achievements.gtr-0.gtr-uniform > * {
+                padding-top: 0px;
+            }
+
+    .row-achievements.gtr-25 {
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+        .row-achievements.gtr-25 > * {
+            padding: 10px 0 0 10px;
+        }
+
+        .row-achievements.gtr-25.gtr-uniform {
+            margin-top: -10px;
+        }
+
+            .row-achievements.gtr-25.gtr-uniform > * {
+                padding-top: 10px;
+            }
+
+    .row-achievements.gtr-50 {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+        .row-achievements.gtr-50 > * {
+            padding: 20px 0 0 20px;
+        }
+
+        .row-achievements.gtr-50.gtr-uniform {
+            margin-top: -20px;
+        }
+
+            .row-achievements.gtr-50.gtr-uniform > * {
+                padding-top: 20px;
+            }
+
+    .row-achievements {
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+
+        .row-achievements > * {
+            padding: 40px 0 0 40px;
+        }
+
+        .row-achievements.gtr-uniform {
+            margin-top: -40px;
+        }
+
+            .row-achievements.gtr-uniform > * {
+                padding-top: 40px;
+            }
+
+    .row-achievements.gtr-150 {
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+
+        .row-achievements.gtr-150 > * {
+            padding: 60px 0 0 60px;
+        }
+
+        .row-achievements.gtr-150.gtr-uniform {
+            margin-top: -60px;
+        }
+
+            .row-achievements.gtr-150.gtr-uniform > * {
+                padding-top: 60px;
+            }
+
+    .row-achievements.gtr-200 {
+        margin-top: -80px;
+        margin-left: -80px;
+    }
+
+        .row-achievements.gtr-200 > * {
+            padding: 80px 0 0 80px;
+        }
+
+        .row-achievements.gtr-200.gtr-uniform {
+            margin-top: -80px;
+        }
+
+            .row-achievements.gtr-200.gtr-uniform > * {
+                padding-top: 80px;
+            }
+
+    @media screen and (min-width: 961px) and (max-width: 1880px) {
+
+        .row-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+        }
+
+            .row-achievements > * {
+                box-sizing: border-box;
+            }
+
+            .row-achievements.gtr-uniform > * > :last-child {
+                margin-bottom: 0;
+            }
+
+            .row-achievements.aln-left {
+                justify-content: flex-start;
+            }
+
+            .row-achievements.aln-center {
+                justify-content: center;
+            }
+
+            .row-achievements.aln-right {
+                justify-content: flex-end;
+            }
+
+            .row-achievements.aln-top {
+                align-items: flex-start;
+            }
+
+            .row-achievements.aln-middle {
+                align-items: center;
+            }
+
+            .row-achievements.aln-bottom {
+                align-items: flex-end;
+            }
+
+            .row-achievements > .imp-wide {
+                order: -1;
+            }
+
+            .row-achievements > .col-1-wide {
+                width: 8.33333%;
+            }
+
+            .row-achievements > .off-1-wide {
+                margin-left: 8.33333%;
+            }
+
+            .row-achievements > .col-2-wide {
+                width: 16.66667%;
+            }
+
+            .row-achievements > .off-2-wide {
+                margin-left: 16.66667%;
+            }
+
+            .row-achievements > .col-3-wide {
+                width: 25%;
+            }
+
+            .row-achievements > .off-3-wide {
+                margin-left: 25%;
+            }
+
+            .row-achievements > .col-4-wide {
+                width: 33.33333%;
+            }
+
+            .row-achievements > .off-4-wide {
+                margin-left: 33.33333%;
+            }
+
+            .row-achievements > .col-5-wide {
+                width: 41.66667%;
+            }
+
+            .row-achievements > .off-5-wide {
+                margin-left: 41.66667%;
+            }
+
+            .row-achievements > .col-6-wide {
+                width: 50%;
+            }
+
+            .row-achievements > .off-6-wide {
+                margin-left: 50%;
+            }
+
+            .row-achievements > .col-7-wide {
+                width: 58.33333%;
+            }
+
+            .row-achievements > .off-7-wide {
+                margin-left: 58.33333%;
+            }
+
+            .row-achievements > .col-8-wide {
+                width: 66.66667%;
+            }
+
+            .row-achievements > .off-8-wide {
+                margin-left: 66.66667%;
+            }
+
+            .row-achievements > .col-9-wide {
+                width: 75%;
+            }
+
+            .row-achievements > .off-9-wide {
+                margin-left: 75%;
+            }
+
+            .row-achievements > .col-10-wide {
+                width: 83.33333%;
+            }
+
+            .row-achievements > .off-10-wide {
+                margin-left: 83.33333%;
+            }
+
+            .row-achievements > .col-11-wide {
+                width: 91.66667%;
+            }
+
+            .row-achievements > .off-11-wide {
+                margin-left: 91.66667%;
+            }
+
+            .row-achievements > .col-12-wide {
+                width: 100%;
+            }
+
+            .row-achievements > .off-12-wide {
+                margin-left: 100%;
+            }
+
+            .row-achievements.gtr-0 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+                .row-achievements.gtr-0 > * {
+                    padding: 0px 0 0 0px;
+                }
+
+                .row-achievements.gtr-0.gtr-uniform {
+                    margin-top: 0px;
+                }
+
+                    .row-achievements.gtr-0.gtr-uniform > * {
+                        padding-top: 0px;
+                    }
+
+            .row-achievements.gtr-25 {
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+
+                .row-achievements.gtr-25 > * {
+                    padding: 10px 0 0 10px;
+                }
+
+                .row-achievements.gtr-25.gtr-uniform {
+                    margin-top: -10px;
+                }
+
+                    .row-achievements.gtr-25.gtr-uniform > * {
+                        padding-top: 10px;
+                    }
+
+            .row-achievements.gtr-50 {
+                margin-top: -20px;
+                margin-left: -20px;
+            }
+
+                .row-achievements.gtr-50 > * {
+                    padding: 20px 0 0 20px;
+                }
+
+                .row-achievements.gtr-50.gtr-uniform {
+                    margin-top: -20px;
+                }
+
+                    .row-achievements.gtr-50.gtr-uniform > * {
+                        padding-top: 20px;
+                    }
+
+            .row-achievements {
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+                .row-achievements > * {
+                    padding: 40px 0 0 40px;
+                }
+
+                .row-achievements.gtr-uniform {
+                    margin-top: -40px;
+                }
+
+                    .row-achievements.gtr-uniform > * {
+                        padding-top: 40px;
+                    }
+
+            .row-achievements.gtr-150 {
+                margin-top: -60px;
+                margin-left: -60px;
+            }
+
+                .row-achievements.gtr-150 > * {
+                    padding: 60px 0 0 60px;
+                }
+
+                .row-achievements.gtr-150.gtr-uniform {
+                    margin-top: -60px;
+                }
+
+                    .row-achievements.gtr-150.gtr-uniform > * {
+                        padding-top: 60px;
+                    }
+
+            .row-achievements.gtr-200 {
+                margin-top: -80px;
+                margin-left: -80px;
+            }
+
+                .row-achievements.gtr-200 > * {
+                    padding: 80px 0 0 80px;
+                }
+
+                .row-achievements.gtr-200.gtr-uniform {
+                    margin-top: -80px;
+                }
+
+                    .row-achievements.gtr-200.gtr-uniform > * {
+                        padding-top: 80px;
+                    }
+
+    }
+
+    @media screen and (min-width: 961px) and (max-width: 1620px) {
+
+        .row-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+        }
+
+            .row-achievements > * {
+                box-sizing: border-box;
+            }
+
+            .row-achievements.gtr-uniform > * > :last-child {
+                margin-bottom: 0;
+            }
+
+            .row-achievements.aln-left {
+                justify-content: flex-start;
+            }
+
+            .row-achievements.aln-center {
+                justify-content: center;
+            }
+
+            .row-achievements.aln-right {
+                justify-content: flex-end;
+            }
+
+            .row-achievements.aln-top {
+                align-items: flex-start;
+            }
+
+            .row-achievements.aln-middle {
+                align-items: center;
+            }
+
+            .row-achievements.aln-bottom {
+                align-items: flex-end;
+            }
+
+            .row-achievements > .imp-normal {
+                order: -1;
+            }
+
+            .row-achievements > .col-1-normal {
+                width: 8.33333%;
+            }
+
+            .row-achievements > .off-1-normal {
+                margin-left: 8.33333%;
+            }
+
+            .row-achievements > .col-2-normal {
+                width: 16.66667%;
+            }
+
+            .row-achievements > .off-2-normal {
+                margin-left: 16.66667%;
+            }
+
+            .row-achievements > .col-3-normal {
+                width: 25%;
+            }
+
+            .row-achievements > .off-3-normal {
+                margin-left: 25%;
+            }
+
+            .row-achievements > .col-4-normal {
+                width: 33.33333%;
+            }
+
+            .row-achievements > .off-4-normal {
+                margin-left: 33.33333%;
+            }
+
+            .row-achievements > .col-5-normal {
+                width: 41.66667%;
+            }
+
+            .row-achievements > .off-5-normal {
+                margin-left: 41.66667%;
+            }
+
+            .row-achievements > .col-6-normal {
+                width: 50%;
+            }
+
+            .row-achievements > .off-6-normal {
+                margin-left: 50%;
+            }
+
+            .row-achievements > .col-7-normal {
+                width: 58.33333%;
+            }
+
+            .row-achievements > .off-7-normal {
+                margin-left: 58.33333%;
+            }
+
+            .row-achievements > .col-8-normal {
+                width: 66.66667%;
+            }
+
+            .row-achievements > .off-8-normal {
+                margin-left: 66.66667%;
+            }
+
+            .row-achievements > .col-9-normal {
+                width: 75%;
+            }
+
+            .row-achievements > .off-9-normal {
+                margin-left: 75%;
+            }
+
+            .row-achievements > .col-10-normal {
+                width: 83.33333%;
+            }
+
+            .row-achievements > .off-10-normal {
+                margin-left: 83.33333%;
+            }
+
+            .row-achievements > .col-11-normal {
+                width: 91.66667%;
+            }
+
+            .row-achievements > .off-11-normal {
+                margin-left: 91.66667%;
+            }
+
+            .row-achievements > .col-12-normal {
+                width: 100%;
+            }
+
+            .row-achievements > .off-12-normal {
+                margin-left: 100%;
+            }
+
+            .row-achievements.gtr-0 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+                .row-achievements.gtr-0 > * {
+                    padding: 0px 0 0 0px;
+                }
+
+                .row-achievements.gtr-0.gtr-uniform {
+                    margin-top: 0px;
+                }
+
+                    .row-achievements.gtr-0.gtr-uniform > * {
+                        padding-top: 0px;
+                    }
+
+            .row-achievements.gtr-25 {
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+
+                .row-achievements.gtr-25 > * {
+                    padding: 10px 0 0 10px;
+                }
+
+                .row-achievements.gtr-25.gtr-uniform {
+                    margin-top: -10px;
+                }
+
+                    .row-achievements.gtr-25.gtr-uniform > * {
+                        padding-top: 10px;
+                    }
+
+            .row-achievements.gtr-50 {
+                margin-top: -20px;
+                margin-left: -20px;
+            }
+
+                .row-achievements.gtr-50 > * {
+                    padding: 20px 0 0 20px;
+                }
+
+                .row-achievements.gtr-50.gtr-uniform {
+                    margin-top: -20px;
+                }
+
+                    .row-achievements.gtr-50.gtr-uniform > * {
+                        padding-top: 20px;
+                    }
+
+            .row-achievements {
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+                .row-achievements > * {
+                    padding: 40px 0 0 40px;
+                }
+
+                .row-achievements.gtr-uniform {
+                    margin-top: -40px;
+                }
+
+                    .row-achievements.gtr-uniform > * {
+                        padding-top: 40px;
+                    }
+
+            .row-achievements.gtr-150 {
+                margin-top: -60px;
+                margin-left: -60px;
+            }
+
+                .row-achievements.gtr-150 > * {
+                    padding: 60px 0 0 60px;
+                }
+
+                .row-achievements.gtr-150.gtr-uniform {
+                    margin-top: -60px;
+                }
+
+                    .row-achievements.gtr-150.gtr-uniform > * {
+                        padding-top: 60px;
+                    }
+
+            .row-achievements.gtr-200 {
+                margin-top: -80px;
+                margin-left: -80px;
+            }
+
+                .row-achievements.gtr-200 > * {
+                    padding: 80px 0 0 80px;
+                }
+
+                .row-achievements.gtr-200.gtr-uniform {
+                    margin-top: -80px;
+                }
+
+                    .row-achievements.gtr-200.gtr-uniform > * {
+                        padding-top: 80px;
+                    }
+
+    }
+
+    @media screen and (min-width: 961px) and (max-width: 1320px) {
+
+        .row-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+        }
+
+            .row-achievements > * {
+                box-sizing: border-box;
+            }
+
+            .row-achievements.gtr-uniform > * > :last-child {
+                margin-bottom: 0;
+            }
+
+            .row-achievements.aln-left {
+                justify-content: flex-start;
+            }
+
+            .row-achievements.aln-center {
+                justify-content: center;
+            }
+
+            .row-achievements.aln-right {
+                justify-content: flex-end;
+            }
+
+            .row-achievements.aln-top {
+                align-items: flex-start;
+            }
+
+            .row-achievements.aln-middle {
+                align-items: center;
+            }
+
+            .row-achievements.aln-bottom {
+                align-items: flex-end;
+            }
+
+            .row-achievements > .imp-narrow-achievements {
+                order: -1;
+            }
+
+            .row-achievements > .col-1-narrow-achievements {
+                width: 8.33333%;
+            }
+
+            .row-achievements > .off-1-narrow-achievements {
+                margin-left: 8.33333%;
+            }
+
+            .row-achievements > .col-2-narrow-achievements {
+                width: 16.66667%;
+            }
+
+            .row-achievements > .off-2-narrow-achievements {
+                margin-left: 16.66667%;
+            }
+
+            .row-achievements > .col-3-narrow-achievements {
+                width: 25%;
+            }
+
+            .row-achievements > .off-3-narrow-achievements {
+                margin-left: 25%;
+            }
+
+            .row-achievements > .col-4-narrow-achievements {
+                width: 33.33333%;
+            }
+
+            .row-achievements > .off-4-narrow-achievements {
+                margin-left: 33.33333%;
+            }
+
+            .row-achievements > .col-5-narrow-achievements {
+                width: 41.66667%;
+            }
+
+            .row-achievements > .off-5-narrow-achievements {
+                margin-left: 41.66667%;
+            }
+
+            .row-achievements > .col-6-narrow-achievements {
+                width: 50%;
+            }
+
+            .row-achievements > .off-6-narrow-achievements {
+                margin-left: 50%;
+            }
+
+            .row-achievements > .col-7-narrow-achievements {
+                width: 58.33333%;
+            }
+
+            .row-achievements > .off-7-narrow-achievements {
+                margin-left: 58.33333%;
+            }
+
+            .row-achievements > .col-8-narrow-achievements {
+                width: 66.66667%;
+            }
+
+            .row-achievements > .off-8-narrow-achievements {
+                margin-left: 66.66667%;
+            }
+
+            .row-achievements > .col-9-narrow-achievements {
+                width: 75%;
+            }
+
+            .row-achievements > .off-9-narrow-achievements {
+                margin-left: 75%;
+            }
+
+            .row-achievements > .col-10-narrow-achievements {
+                width: 83.33333%;
+            }
+
+            .row-achievements > .off-10-narrow-achievements {
+                margin-left: 83.33333%;
+            }
+
+            .row-achievements > .col-11-narrow-achievements {
+                width: 91.66667%;
+            }
+
+            .row-achievements > .off-11-narrow-achievements {
+                margin-left: 91.66667%;
+            }
+
+            .row-achievements > .col-12-narrow-achievements {
+                width: 100%;
+            }
+
+            .row-achievements > .off-12-narrow-achievements {
+                margin-left: 100%;
+            }
+
+            .row-achievements.gtr-0 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+                .row-achievements.gtr-0 > * {
+                    padding: 0px 0 0 0px;
+                }
+
+                .row-achievements.gtr-0.gtr-uniform {
+                    margin-top: 0px;
+                }
+
+                    .row-achievements.gtr-0.gtr-uniform > * {
+                        padding-top: 0px;
+                    }
+
+            .row-achievements.gtr-25 {
+                margin-top: -5px;
+                margin-left: -5px;
+            }
+
+                .row-achievements.gtr-25 > * {
+                    padding: 5px 0 0 5px;
+                }
+
+                .row-achievements.gtr-25.gtr-uniform {
+                    margin-top: -5px;
+                }
+
+                    .row-achievements.gtr-25.gtr-uniform > * {
+                        padding-top: 5px;
+                    }
+
+            .row-achievements.gtr-50 {
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+
+                .row-achievements.gtr-50 > * {
+                    padding: 10px 0 0 10px;
+                }
+
+                .row-achievements.gtr-50.gtr-uniform {
+                    margin-top: -10px;
+                }
+
+                    .row-achievements.gtr-50.gtr-uniform > * {
+                        padding-top: 10px;
+                    }
+
+            .row-achievements {
+                margin-top: -20px;
+                margin-left: -20px;
+            }
+
+                .row-achievements > * {
+                    padding: 20px 0 0 20px;
+                }
+
+                .row-achievements.gtr-uniform {
+                    margin-top: -20px;
+                }
+
+                    .row-achievements.gtr-uniform > * {
+                        padding-top: 20px;
+                    }
+
+            .row-achievements.gtr-150 {
+                margin-top: -30px;
+                margin-left: -30px;
+            }
+
+                .row-achievements.gtr-150 > * {
+                    padding: 30px 0 0 30px;
+                }
+
+                .row-achievements.gtr-150.gtr-uniform {
+                    margin-top: -30px;
+                }
+
+                    .row-achievements.gtr-150.gtr-uniform > * {
+                        padding-top: 30px;
+                    }
+
+            .row-achievements.gtr-200 {
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+                .row-achievements.gtr-200 > * {
+                    padding: 40px 0 0 40px;
+                }
+
+                .row-achievements.gtr-200.gtr-uniform {
+                    margin-top: -40px;
+                }
+
+                    .row-achievements.gtr-200.gtr-uniform > * {
+                        padding-top: 40px;
+                    }
+
+    }
+
+    @media screen and (max-width: 960px) {
+
+        .row-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+        }
+
+            .row-achievements > * {
+                box-sizing: border-box;
+            }
+
+            .row-achievements.gtr-uniform > * > :last-child {
+                margin-bottom: 0;
+            }
+
+            .row-achievements.aln-left {
+                justify-content: flex-start;
+            }
+
+            .row-achievements.aln-center {
+                justify-content: center;
+            }
+
+            .row-achievements.aln-right {
+                justify-content: flex-end;
+            }
+
+            .row-achievements.aln-top {
+                align-items: flex-start;
+            }
+
+            .row-achievements.aln-middle {
+                align-items: center;
+            }
+
+            .row-achievements.aln-bottom {
+                align-items: flex-end;
+            }
+
+            .row-achievements > .imp-narrow-achievementser {
+                order: -1;
+            }
+
+            .row-achievements > .col-1-narrow-achievementser {
+                width: 8.33333%;
+            }
+
+            .row-achievements > .off-1-narrow-achievementser {
+                margin-left: 8.33333%;
+            }
+
+            .row-achievements > .col-2-narrow-achievementser {
+                width: 16.66667%;
+            }
+
+            .row-achievements > .off-2-narrow-achievementser {
+                margin-left: 16.66667%;
+            }
+
+            .row-achievements > .col-3-narrow-achievementser {
+                width: 25%;
+            }
+
+            .row-achievements > .off-3-narrow-achievementser {
+                margin-left: 25%;
+            }
+
+            .row-achievements > .col-4-narrow-achievementser {
+                width: 33.33333%;
+            }
+
+            .row-achievements > .off-4-narrow-achievementser {
+                margin-left: 33.33333%;
+            }
+
+            .row-achievements > .col-5-narrow-achievementser {
+                width: 41.66667%;
+            }
+
+            .row-achievements > .off-5-narrow-achievementser {
+                margin-left: 41.66667%;
+            }
+
+            .row-achievements > .col-6-narrow-achievementser {
+                width: 50%;
+            }
+
+            .row-achievements > .off-6-narrow-achievementser {
+                margin-left: 50%;
+            }
+
+            .row-achievements > .col-7-narrow-achievementser {
+                width: 58.33333%;
+            }
+
+            .row-achievements > .off-7-narrow-achievementser {
+                margin-left: 58.33333%;
+            }
+
+            .row-achievements > .col-8-narrow-achievementser {
+                width: 66.66667%;
+            }
+
+            .row-achievements > .off-8-narrow-achievementser {
+                margin-left: 66.66667%;
+            }
+
+            .row-achievements > .col-9-narrow-achievementser {
+                width: 75%;
+            }
+
+            .row-achievements > .off-9-narrow-achievementser {
+                margin-left: 75%;
+            }
+
+            .row-achievements > .col-10-narrow-achievementser {
+                width: 83.33333%;
+            }
+
+            .row-achievements > .off-10-narrow-achievementser {
+                margin-left: 83.33333%;
+            }
+
+            .row-achievements > .col-11-narrow-achievementser {
+                width: 91.66667%;
+            }
+
+            .row-achievements > .off-11-narrow-achievementser {
+                margin-left: 91.66667%;
+            }
+
+            .row-achievements > .col-12-narrow-achievementser {
+                width: 100%;
+            }
+
+            .row-achievements > .off-12-narrow-achievementser {
+                margin-left: 100%;
+            }
+
+            .row-achievements.gtr-0 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+                .row-achievements.gtr-0 > * {
+                    padding: 0px 0 0 0px;
+                }
+
+                .row-achievements.gtr-0.gtr-uniform {
+                    margin-top: 0px;
+                }
+
+                    .row-achievements.gtr-0.gtr-uniform > * {
+                        padding-top: 0px;
+                    }
+
+            .row-achievements.gtr-25 {
+                margin-top: -5px;
+                margin-left: -5px;
+            }
+
+                .row-achievements.gtr-25 > * {
+                    padding: 5px 0 0 5px;
+                }
+
+                .row-achievements.gtr-25.gtr-uniform {
+                    margin-top: -5px;
+                }
+
+                    .row-achievements.gtr-25.gtr-uniform > * {
+                        padding-top: 5px;
+                    }
+
+            .row-achievements.gtr-50 {
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+
+                .row-achievements.gtr-50 > * {
+                    padding: 10px 0 0 10px;
+                }
+
+                .row-achievements.gtr-50.gtr-uniform {
+                    margin-top: -10px;
+                }
+
+                    .row-achievements.gtr-50.gtr-uniform > * {
+                        padding-top: 10px;
+                    }
+
+            .row-achievements {
+                margin-top: -20px;
+                margin-left: -20px;
+            }
+
+                .row-achievements > * {
+                    padding: 20px 0 0 20px;
+                }
+
+                .row-achievements.gtr-uniform {
+                    margin-top: -20px;
+                }
+
+                    .row-achievements.gtr-uniform > * {
+                        padding-top: 20px;
+                    }
+
+            .row-achievements.gtr-150 {
+                margin-top: -30px;
+                margin-left: -30px;
+            }
+
+                .row-achievements.gtr-150 > * {
+                    padding: 30px 0 0 30px;
+                }
+
+                .row-achievements.gtr-150.gtr-uniform {
+                    margin-top: -30px;
+                }
+
+                    .row-achievements.gtr-150.gtr-uniform > * {
+                        padding-top: 30px;
+                    }
+
+            .row-achievements.gtr-200 {
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+                .row-achievements.gtr-200 > * {
+                    padding: 40px 0 0 40px;
+                }
+
+                .row-achievements.gtr-200.gtr-uniform {
+                    margin-top: -40px;
+                }
+
+                    .row-achievements.gtr-200.gtr-uniform > * {
+                        padding-top: 40px;
+                    }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .row-achievements {
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            align-items: stretch;
+        }
+
+            .row-achievements > * {
+                box-sizing: border-box;
+            }
+
+            .row-achievements.gtr-uniform > * > :last-child {
+                margin-bottom: 0;
+            }
+
+            .row-achievements.aln-left {
+                justify-content: flex-start;
+            }
+
+            .row-achievements.aln-center {
+                justify-content: center;
+            }
+
+            .row-achievements.aln-right {
+                justify-content: flex-end;
+            }
+
+            .row-achievements.aln-top {
+                align-items: flex-start;
+            }
+
+            .row-achievements.aln-middle {
+                align-items: center;
+            }
+
+            .row-achievements.aln-bottom {
+                align-items: flex-end;
+            }
+
+            .row-achievements > .imp-mobile {
+                order: -1;
+            }
+
+            .row-achievements > .col-1-mobile {
+                width: 8.33333%;
+            }
+
+            .row-achievements > .off-1-mobile {
+                margin-left: 8.33333%;
+            }
+
+            .row-achievements > .col-2-mobile {
+                width: 16.66667%;
+            }
+
+            .row-achievements > .off-2-mobile {
+                margin-left: 16.66667%;
+            }
+
+            .row-achievements > .col-3-mobile {
+                width: 25%;
+            }
+
+            .row-achievements > .off-3-mobile {
+                margin-left: 25%;
+            }
+
+            .row-achievements > .col-4-mobile {
+                width: 33.33333%;
+            }
+
+            .row-achievements > .off-4-mobile {
+                margin-left: 33.33333%;
+            }
+
+            .row-achievements > .col-5-mobile {
+                width: 41.66667%;
+            }
+
+            .row-achievements > .off-5-mobile {
+                margin-left: 41.66667%;
+            }
+
+            .row-achievements > .col-6-mobile {
+                width: 50%;
+            }
+
+            .row-achievements > .off-6-mobile {
+                margin-left: 50%;
+            }
+
+            .row-achievements > .col-7-mobile {
+                width: 58.33333%;
+            }
+
+            .row-achievements > .off-7-mobile {
+                margin-left: 58.33333%;
+            }
+
+            .row-achievements > .col-8-mobile {
+                width: 66.66667%;
+            }
+
+            .row-achievements > .off-8-mobile {
+                margin-left: 66.66667%;
+            }
+
+            .row-achievements > .col-9-mobile {
+                width: 75%;
+            }
+
+            .row-achievements > .off-9-mobile {
+                margin-left: 75%;
+            }
+
+            .row-achievements > .col-10-mobile {
+                width: 83.33333%;
+            }
+
+            .row-achievements > .off-10-mobile {
+                margin-left: 83.33333%;
+            }
+
+            .row-achievements > .col-11-mobile {
+                width: 91.66667%;
+            }
+
+            .row-achievements > .off-11-mobile {
+                margin-left: 91.66667%;
+            }
+
+            .row-achievements > .col-12-mobile {
+                width: 100%;
+            }
+
+            .row-achievements > .off-12-mobile {
+                margin-left: 100%;
+            }
+
+            .row-achievements.gtr-0 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+                .row-achievements.gtr-0 > * {
+                    padding: 0px 0 0 0px;
+                }
+
+                .row-achievements.gtr-0.gtr-uniform {
+                    margin-top: 0px;
+                }
+
+                    .row-achievements.gtr-0.gtr-uniform > * {
+                        padding-top: 0px;
+                    }
+
+            .row-achievements.gtr-25 {
+                margin-top: -5px;
+                margin-left: -5px;
+            }
+
+                .row-achievements.gtr-25 > * {
+                    padding: 5px 0 0 5px;
+                }
+
+                .row-achievements.gtr-25.gtr-uniform {
+                    margin-top: -5px;
+                }
+
+                    .row-achievements.gtr-25.gtr-uniform > * {
+                        padding-top: 5px;
+                    }
+
+            .row-achievements.gtr-50 {
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+
+                .row-achievements.gtr-50 > * {
+                    padding: 10px 0 0 10px;
+                }
+
+                .row-achievements.gtr-50.gtr-uniform {
+                    margin-top: -10px;
+                }
+
+                    .row-achievements.gtr-50.gtr-uniform > * {
+                        padding-top: 10px;
+                    }
+
+            .row-achievements {
+                margin-top: -20px;
+                margin-left: -20px;
+            }
+
+                .row-achievements > * {
+                    padding: 20px 0 0 20px;
+                }
+
+                .row-achievements.gtr-uniform {
+                    margin-top: -20px;
+                }
+
+                    .row-achievements.gtr-uniform > * {
+                        padding-top: 20px;
+                    }
+
+            .row-achievements.gtr-150 {
+                margin-top: -30px;
+                margin-left: -30px;
+            }
+
+                .row-achievements.gtr-150 > * {
+                    padding: 30px 0 0 30px;
+                }
+
+                .row-achievements.gtr-150.gtr-uniform {
+                    margin-top: -30px;
+                }
+
+                    .row-achievements.gtr-150.gtr-uniform > * {
+                        padding-top: 30px;
+                    }
+
+            .row-achievements.gtr-200 {
+                margin-top: -40px;
+                margin-left: -40px;
+            }
+
+                .row-achievements.gtr-200 > * {
+                    padding: 40px 0 0 40px;
+                }
+
+                .row-achievements.gtr-200.gtr-uniform {
+                    margin-top: -40px;
+                }
+
+                    .row-achievements.gtr-200.gtr-uniform > * {
+                        padding-top: 40px;
+                    }
+
+    }
+
 /* Sections/Article */
 
 	section, article {
@@ -2422,6 +3892,59 @@ input, select, textarea {
 				border-radius: 50px; 
 			  }
 			  
+			#main > section.eight {
+				background-color: #ecf1f1;
+			}
+			.iframe-container {
+				position: relative;
+				overflow: hidden;
+				padding-top: 85%; /* 16:9 Aspect Ratio */
+				/* Adjust above value for different aspect ratios */
+				max-width: 65%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			  
+			.iframe-container iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+				border-radius: 50px; 
+			  }
+
+			.iframe-container-hackathon {
+				position: relative;
+				overflow: hidden;
+				padding-top: 43%; /* 16:9 Aspect Ratio */
+				/* Adjust above value for different aspect ratios */
+				max-width: 65%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			  
+			.iframe-container-hackathon iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+				border-radius: 50px; 
+			  }
+
+			.row-achievements {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			  }
 
 /* Wide */
 
