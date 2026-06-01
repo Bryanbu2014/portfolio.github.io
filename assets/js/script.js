@@ -231,7 +231,8 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 // Check animation state
 const animationsPlayed = sessionStorage.getItem('animationsPlayed') === 'true';
-const isLandingPage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('portfolio/');
+const pathName = window.location.pathname;
+const isLandingPage = (pathName.endsWith('index.html') && !pathName.includes('/projects/')) || pathName === '/' || pathName.endsWith('portfolio/');
 
 document.querySelectorAll('.reveal').forEach((el) => {
     if (animationsPlayed && isLandingPage) {
@@ -258,8 +259,8 @@ document.addEventListener('click', (e) => {
         sessionStorage.removeItem('projectsExpanded');
         sessionStorage.removeItem('animationsPlayed');
         
-        // If we are already on index.html, just clear state and reload/scroll
-        if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('portfolio/')) {
+        // If we are already on the landing page, just clear state and reload/scroll
+        if (isLandingPage) {
             e.preventDefault();
             window.location.href = window.location.pathname;
         }
