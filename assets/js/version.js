@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update version tags
     const versionTags = document.querySelectorAll('.version-badge-tag');
     versionTags.forEach(tag => {
-        tag.innerHTML = `<i class="fas fa-code-branch"></i>${PORTFOLIO_VERSION}`;
+        tag.innerHTML = '<i class="fas fa-code-branch"></i>';
+        tag.appendChild(document.createTextNode(PORTFOLIO_VERSION));
     });
 
     // Update version dates
